@@ -3,7 +3,8 @@ let score = "hitesh"
 //console.log(typeof score);
 //console.log(typeof(score));
 
-let valueInNumber = Number(score)
+let valueInNumber = Number(score)//this guarantees that the number is the Number
+let valueInString =String(score)
 //console.log(typeof valueInNumber);
 //console.log(valueInNumber);
 
