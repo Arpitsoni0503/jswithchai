@@ -6,11 +6,11 @@ let score = "hitesh"
 let valueInNumber = Number(score)//this guarantees that the number is the Number
 let valueInString =String(score)
 //console.log(typeof valueInNumber);
-//console.log(valueInNumber);
+//console.log(valueInNumber);//it gives NaN(not an number) because      score is a string
 
 
 // "33" => 33
-// "33abc" => NaN
+// "33abc" => NaN// NaN IS NUMBER TYPE
 //  true => 1; false => 0
 
 let isLoggedIn = "hitesh"
