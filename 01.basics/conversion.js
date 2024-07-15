@@ -25,15 +25,14 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber = 33
 
 let stringNumber = String(someNumber)
-// console.log(stringNumber);
-// console.log(typeof stringNumber);
+// console.log(stringNumber);//33 => it appears as number but in reality it is a string
+// console.log(typeof stringNumber);//string
 
 // *********************** Operations ***********************
 
 let value = 3
 let negValue = -value
 // console.log(negValue);
-
 // console.log(2+2);
 // console.log(2-2);
 // console.log(2*2);
