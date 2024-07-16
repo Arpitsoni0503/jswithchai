@@ -5,7 +5,10 @@ accountCity = "Jaipur"
 let accountState;
 
 // accountId = 2 // not allowed
-
+//javascript is asynchronous prgramming language because koi bhi ek task na chale pr baaki task toh chalte rahenge
+//compiler is faster
+//interpreter line bhar line code krta hai,jaha error dikhe udhar hi ruk jayega
+//compiler pure code ko read krta h ek saath
 
 accountEmail = "hc@hc.com"
 accountPassword = "21212121"
