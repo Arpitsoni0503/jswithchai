@@ -1,0 +1,54 @@
+let fnumber=10;
+let snumber=20;
+// console.log(fnumber%5)
+// console.log(20%7)
+//console.log(10**3)it means 10*10*10=1000
+//  ** ->it means to find power 
+ //swap
+ /*
+ 1st method
+ let a=10;
+ let b=20;
+ console.log(a)
+ console.log(b)
+ let temp;
+ temp=a
+ a=b
+ b=temp
+ console.log(a)
+ console.log(b)
+*/
+
+//2nd method
+/*
+let a=10
+let b=20
+console.log(a)
+ console.log(b)
+a=a+b//a=30
+b=a-b//30-20=10
+a=a-b//30-10=20
+console.log(a)
+ console.log(b)
+ */
+//***** comparision operators******
+//==-> equal operator ye btata hai ki kya dono value barabar hai
+/*
+let a=10;
+let b='10';
+console.log(a==b)//true
+//== jo operator hai vo sirf value ko compare krta h na ki uske typeof ko
+console.log(a===b)//false
+//=== type aur value dono same hona chahiye
+console.log(10<=20)//true
+console.log(20>=10)//true
+*/
+// ||=>logical OR operator=koi bhi ek shi=>true
+// &&=>logical AND Operator=dono true hone chahiye
+let username="arpit"
+let password="1234"
+console.log(username=="arpit" || password=="123" )//true
+console.log(username=="arpit" && password=="123" )//false
+//prompt function= user se input lene ka kaam
+let per=55
+console.log(per>=40 && per<=60)
